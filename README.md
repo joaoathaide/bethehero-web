@@ -63,7 +63,7 @@ $ git clone https://github.com/joaoathaide/bethehero-web.git
 $ cd bethehero-web
 
 # Install dependencies
-$ yarn install
+$ yarn
 
 # Run the app
 $ yarn start
