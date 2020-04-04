@@ -1,68 +1,80 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+<br>
+  <img src="src/assets/logo.svg" alt="GoBarber" width="150">
+<br>
+<br>
+Be The Hero
+</h1>
 
-## Available Scripts
+<h4 align="center">Be the Hero is a project that aims to help, in a financial way, a charity, helping it to maintain itself. Non-governmental organizations (NGOs) are private, non-profit civil society entities whose purpose is to defend and promote a cause. This cause can be of virtually any type: human rights, animal rights, indigenous rights, gender, the fight against racism, the environment, urban issues, immigrants, among many others.</h4>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License MIT">
+  </a>
+</p>
 
-### `yarn start`
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#license">License</a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+ <img src="images/login.png" height="200"
+ width="500" alt="logon">
+  <br>
+  <img src="images/cadastro.png" height="200"
+ width="500" alt="register">
+  <br>
+  <img src="images/index.png" height="200"
+ width="500" alt="index">
+  <br>
+  <img src="images/incidente.png" height="200"
+ width="500" alt="incident">
+  <br>
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## :rocket: Technologies
 
-### `yarn test`
+This project was developed at the [Rocketseat OmniStack]() with the following technologies:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ReactJS](https://reactjs.org/)
+- [Create React App Configuration Override](https://github.com/sharegate/craco)
+- [React Router](https://github.com/ReactTraining/react-router)
+- [styled-components](https://www.styled-components.com/)
+- [Axios](https://github.com/axios/axios)
+- [React-Icons](http://react-icons.github.io/react-icons/)
+- [VS Code](https://code.visualstudio.com) with [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-### `yarn build`
+## Getting started
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16](https://nodejs.org/en/) or higher + [Yarn v1.13](https://yarnpkg.com/) or higher installed on your computer and the [Be The Hero API](https://github.com/joaoathaide/bethehero-api-server). From your command line:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
+# Clone this repository
+$ git clone https://github.com/joaoathaide/bethehero-web.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Go into the repository
+$ cd bethehero-web
 
-### `yarn eject`
+# Install dependencies
+$ yarn install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Run the app
+$ yarn start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License
 
-## Learn More
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Made with ♥ by João Athaide
